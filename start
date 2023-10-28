@@ -1,2 +1,2 @@
-git clone $REPO_URL ok && cd ok && pip3 install -U -r requirements.txt && pip3 install -U -r re*/st*/optional-requirements.txt
+git clone $REPO_URL ok && cd ok && bash installer.sh
 $START_CMD
